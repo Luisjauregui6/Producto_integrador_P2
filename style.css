@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(114, 114, 169);
+}
+
+#texto-pagina {
+    text-align: center;
+    color: white;
+}
+
+#BtnMenu {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pagMenu {
+    text-align: center;
+    color: white;
+}
+
+#backHomeBtn {
+    float: left;
+    font-size: 15px;
+}
+
+#list {
+    text-align: center;
+}
+
