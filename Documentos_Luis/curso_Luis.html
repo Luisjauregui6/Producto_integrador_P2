@@ -8,9 +8,19 @@
     <title>Actividades realizadas en el curso</title>
 </head>
 <body>
+    <button id="backHomeBtn" onclick="showMenu()">&larr;</button>
     <h1 style="text-align: center">Backlog y sprint proyecto peluquería pablo</h1>
     <center>
     <iframe src="formatos_curso_luis.pdf" frameborder="0"></iframe>
     </center>
 </body>
+    <script>
+        function showMenu() {
+        let element = document.location.href = "../menu.html";
+        }
+
+        function backHome() {
+            let element = document.location.href = "../index.html";
+        }
+    </script>
 </html>
